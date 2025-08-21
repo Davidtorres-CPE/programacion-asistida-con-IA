@@ -1,4 +1,14 @@
 def suma(a, b):
+    """
+    Suma dos números y devuelve el resultado.
+
+    Args:
+        a (int or float): Primer número a sumar.
+        b (int or float): Segundo número a sumar.
+
+    Returns:
+        int or float: La suma de a y b.
+    """
     return a + b
 
 def resta(a, b):
@@ -82,5 +92,7 @@ def ejecutar_calculadora():
 # Línea para ejecutar la calculadora
 if __name__ == "__main__":
     ejecutar_calculadora()
+
+
 
 
