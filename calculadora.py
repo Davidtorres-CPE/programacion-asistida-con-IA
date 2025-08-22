@@ -35,8 +35,6 @@ def raiz_cuadrada(numero):
         raise ValueError("No se puede calcular la raíz cuadrada de un número negativo")
     return numero ** 0.5   
 
-def manejar_error(e):
-    print(f"Error: {e}")
 
 # Crear una función para crear un menú con las opciones de la calculadora
 def menu():
