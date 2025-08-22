@@ -1,25 +1,27 @@
 def suma(a, b):
-    """
-    Suma dos números y devuelve el resultado.
-
-    Args:
-        a (int or float): Primer número a sumar.
-        b (int or float): Segundo número a sumar.
-
-    Returns:
-        int or float: La suma de a y b.
-    """
     return a + b
 
 def resta(a, b):
     return a - b
 
 def multiplicacion(a, b):
-    resultado = 0
     resultado = a * b
     return resultado
 
 def division(a, b):
+    """
+    Divide dos números y devuelve el resultado.
+
+    Args:
+        a (float o int): El numerador.
+        b (float o int): El denominador.
+
+    Raises:
+        ValueError: Si el denominador `b` es cero.
+
+    Returns:
+        float: El resultado de dividir `a` entre `b`.
+    """
     if b == 0:
         raise ValueError("No se puede dividir por cero")
     return a / b
